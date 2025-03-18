@@ -21,6 +21,8 @@ class _HomePageState extends State<HomePage> {
           child: ListView(
             children: [
               
+            
+              
                Container(
                 margin: EdgeInsets.only(left: 15),
                 child: Row(
@@ -29,10 +31,7 @@ class _HomePageState extends State<HomePage> {
                     SizedBox(width: 190,),
 
                     IconButton(
-                      onPressed: (){Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => Wishlist()),
-            );},
+                      onPressed: (){},
                       icon: Icon(Icons.favorite_border_outlined)),
                     SizedBox(width: 27,),
 
