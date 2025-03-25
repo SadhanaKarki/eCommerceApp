@@ -14,6 +14,10 @@ class Cart extends StatelessWidget {
           Container(
             height: 40,
             child: Text("hi"),
+          ),
+          Container(
+            height: 50,
+            child: Text("hello"),
           )
         ],
       ),
