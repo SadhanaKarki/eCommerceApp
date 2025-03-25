@@ -9,6 +9,14 @@ class Cart extends StatelessWidget {
       appBar: AppBar(
         title: Text("CART"),
       ),
+      body: Column(
+        children: [
+          Container(
+            height: 40,
+            child: Text("hi"),
+          )
+        ],
+      ),
     );
   }
 }
